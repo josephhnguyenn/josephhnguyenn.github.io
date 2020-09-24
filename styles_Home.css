@@ -1,0 +1,54 @@
+html{
+    background-image: url("Images/background.png.jpg");
+}
+.main-header{
+    background-size: cover;
+    animation: fadeIn 3s;
+}
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    
+}
+.main-body{
+    animation: fadein 3s;
+}
+
+.footer{
+    animation: fadein 3s;
+}
+
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
