@@ -36,11 +36,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-.resumesec{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .profile{
     display: block;
     margin-left: auto;
@@ -61,10 +57,15 @@ img {
 }
 
 .footer{
-    position: absolute;
+    /*position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;  
+    height: 2.5rem;  */
+    min-height:400px;
+    margin-bottom: 100px;
+    clear: both;
+
+
 }
 
 
